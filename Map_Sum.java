@@ -5,11 +5,11 @@ import java.util.Map;
 
 class Map_Sum{
     public static void main(String[] args) {
-        List<Integer>Studen_1_Score=Arrays.asList(10,20,30,40);
-        List<Integer>Studen_2_Score=Arrays.asList(10,20,30,4);
+        List<Integer>st1=Arrays.asList(10,20,30,40);
+        List<Integer>st2=Arrays.asList(10,20,30,4);
         Map<Integer,List<Integer>>Students=new HashMap<>();
-        Students.put(1,Studen_1_Score);
-        Students.put(2,Studen_2_Score);
+        Students.put(1,st1);
+        Students.put(2,st2);
         System.out.println(Students);
         Map<Integer,Integer>Stu_detail=new HashMap<>();
 
